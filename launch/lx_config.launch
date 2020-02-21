@@ -1,0 +1,11 @@
+<launch>
+
+    <env name="ROS_MASTER_URI" value="http://10.108.66.46:11311" />
+    <env name="ROS_HOSTNAME" value="robotlab-t1600" />
+
+    <node name="rqt_reconfigure" 
+        pkg="rqt_reconfigure" 
+        type="rqt_reconfigure">
+    </node>
+
+</launch>

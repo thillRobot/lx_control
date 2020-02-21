@@ -1,0 +1,17 @@
+<launch>
+
+    <!-- read value of arg -->
+    <param name="param" value="$(arg robot_ip)"/>
+    <param name="param" value="$(arg control_ip)"/>
+
+
+    <env name="ROS_MASTER_URI" value="http://$(arg uri):11311" />
+    <env name="ROS_IP" value="$(arg ip)" />
+
+    <node name="rviz" 
+        pkg="rviz" 
+        type="rviz" 
+        args="-d $(find lx_control)/lx_explore.rviz">
+    </node>
+
+</launch>

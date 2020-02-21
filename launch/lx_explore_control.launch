@@ -1,0 +1,12 @@
+<launch>
+
+    <env name="ROS_MASTER_URI" value="http://10.100.66.35:11311" />
+    <env name="ROS_HOSTNAME" value="robotlab-t1600" />
+
+    <node name="rviz" 
+        pkg="rviz" 
+        type="rviz" 
+        args="-d $(find lx_control)/lx_explore.rviz">
+    </node>
+
+</launch>
