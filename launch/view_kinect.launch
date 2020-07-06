@@ -10,7 +10,7 @@
     <node name="rviz"
         pkg="rviz"
         type="rviz"
-        args="-d $(find lx_control)/rviz/lx_control.rviz">
+        args="-d $(find lx_control)/rviz/view_kinect.rviz">
     </node>
 
 </launch>
