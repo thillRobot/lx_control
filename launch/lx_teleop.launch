@@ -1,8 +1,7 @@
 <launch>
 
-
-    <env name="ROS_MASTER_URI" value="http://10.100.66.35:11311" />
-    <env name="ROS_HOSTNAME" value="robotlab-t1600" />
+    <env name="ROS_MASTER_URI" value="http://10.104.66.40:11311"/>
+    <env name="ROS_HOSTNAME" value="149.149.120.118" />
 
 <node name="rviz" 
       pkg="rviz" 
@@ -13,6 +12,7 @@
 	pkg="teleop_twist_keyboard"
 	name="teleop_twist_keyboard"
 	type="teleop_twist_keyboard.py" 
-  />
+	output="screen"  
+/>
 
 </launch>
