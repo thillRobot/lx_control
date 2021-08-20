@@ -1,7 +1,7 @@
 <launch>
 
     <env name="ROS_MASTER_URI" value="http://10.104.66.40:11311"/>
-    <env name="ROS_HOSTNAME" value="149.149.120.118" />
+    <env name="ROS_HOSTNAME" value="149.149.120.122" />
 
 <node name="rviz" 
       pkg="rviz" 
